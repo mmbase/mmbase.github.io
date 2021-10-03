@@ -15,10 +15,12 @@ The code base was copied to https://github.com/mmbase[github] a few years before
 == Technical details
 MMBase is coded in java. It used to have its own templating language (https://github.com/mmbase/mmbase/tree/MMBase-1_9/applications/scan[SCAN]), but soon templating was mostly done in JSP, and an extensive 'tag library' was provided.
 
+An early history and overview was also published in https://www.researchgate.net/publication/224101694_MMBase_An_open-source_content_management_system[IBM Systems Journal · February 2005]
+
 
 The last release was MMBase 1.9.6. Releases used to be in our own MMBase Maven repositories (http://www.mmbase.org/maven2, http://www.mmbase.org/snapshots), which don't exist either anymore. I've tried to push some artifacts to https://search.maven.org/search?q=mmbase[maven central] and https://oss.sonatype.org/[sonatype]) in the meantime. This work is not completed. The presently default branch  on github is the https://github.com/mmbase/mmbase/tree/MMBase-1_9[MMBase 1.9 branch]. May be it would be usefull the at least create and publish a 1.9.7 version and publish all its artifacts to maven central.
 
-At the time (around ~ 2012 or so) we were actually busy with an MMBase 2.0, which would have involved portal functionality and such. We may try to release some of it after all. We also started to split up the mono-repository of MMBase 1.9 in several distinct github repository like:
+At the time (around ~ 2010 or so) we were actually busy with an MMBase 2.0, which would have involved portal functionality and such. We may try to release some of it after all. We also started to split up the mono-repository of MMBase 1.9 in several distinct github repository like:
 
 * https://github.com/mmbase/mmbase-bom[bom]: Just a maven pom file with dependencies
 * https://github.com/mmbase/mmbase-bridge[bridge]: Collects interfaces to MMBase. MMBase used to have at least 2 implementations:
@@ -29,7 +31,7 @@ At the time (around ~ 2012 or so) we were actually busy with an MMBase 2.0, whic
 * https://github.com/mmbase/mmbase-taglib[taglib]: Used in templating, talks to the MMBase bridge, but also contained a lot of utility tags.
 * https://github.com/mmbase/mmbase-utils[utils]: Collects several utilities. E.g. MMBase had its own logging framework (originating before similar products like slf4j)
 
-Which hopefully will make 2.0 versions of these a bit more usefull. E.g. I'd myself sometimes wish I could use these nice `mm:` tags again,  or perhaps some classes from `org.mmbase.util` even if I'm not using MMBase itself anymore.
+Which hopefully will make 2.0 versions of these a bit more usefull. E.g. I'd myself sometimes wish I could use these nice `mm:` tags again, or perhaps some classes from `org.mmbase.util` even if I'm not using MMBase itself anymore.
 
 == Other projects hosted at github.com/mmbase
 
