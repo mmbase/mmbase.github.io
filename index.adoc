@@ -39,7 +39,7 @@ Which hopefully will make 2.0 versions of these a bit more usefull. E.g. I'd mys
 == Sites still running on MMBase
 The most noticeable one is:
 
-- https://openbeelden.nl/[open beelden]
+- https://openbeelden.nl/[open beelden] (https://github.com/beeldengeluid/openbeelden[source])
 
 There might be more?
 
