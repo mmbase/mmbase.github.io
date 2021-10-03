@@ -2,7 +2,7 @@
 :toc:
 
 == Introduction
-MMBase is a Content Management System that was relatively popular in the zero's mainly in the Netherlands. It was originally developped at https://www.vpro.nl/[VPRO]
+MMBase is a Content Management System that was relatively popular in the zero's mainly in the Netherlands. It was originally developed at https://www.vpro.nl/[VPRO] (https://github.vpro.nl/vpro[github], https://github.vpro.nl/npo-poms[this too])
 
 == Current Status
 The product more or less died in the early 2010's. The original site and servers perished in 2020 or 2021 (?). The domains (mmbase.nl and mmbase.org) were in possession of one of the origjnal sponsors XS4All, and were transferred in september 2021.
@@ -28,7 +28,7 @@ Which hopefully will make 2.0 versions of these a bit more usefull. E.g. I'd mys
 - https://github.com/mmbase/didactor[Didactor]: An E-learning environment. Originally mainly developed by Johannes I think, and later by Henk
 - https://github.com/mmbase/te[Template Engine]: Used at VPRO, developed mainly by Kees
 - https://github.com/mmbase/natmm[NatuurMonumenten]: A CMS ('LeoCMS', referring to, I think, the municipality of Leeuwarden) Originally developed by Henk.
-- https://github.com/mmbase/mmweb[mmweb]: The original MMBase, using MMBase itself
+- https://github.com/mmbase/mmweb[mmweb]: https://web.archive.org/web/20200319183931/http://www.mmbase.org/[The original MMBase.org site, using MMBase itself]
 
 === Forked because dissappeared themselves
 - https://github.com/mmbase/aselect[A-Select]: A single sign on system, which MMBase (the https://github.com/mmbase/mmbase/tree/MMBase-1_9/contributions/aselect['aselect sub project']) had support for
