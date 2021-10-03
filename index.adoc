@@ -9,5 +9,19 @@ The product more or less died in the early 2010's. The original site and servers
 
 The code base was copied to https://github.com/mmbase[github] a few years before.
 
+The last release was MMBase 1.9.6. Release used to be in our own MMBase Maven repository, which doesn't exist either anymore. I've tried to push some artifacts to https://search.maven.org/search?q=mmbase[maven central] in the mean time. This work is not completed. The default branch on github is the MMBase 1.9 branch. May be it would be usefull the at least create and publish a 1.9.7 version and publish all its artifacts to maven central.
+
+At the time we were actually busy with an MMBase 2.0, which would have envolved portal functionality and such. We may try to release some of it after all
+
+== Sites still running on MMBase
+The most noticeable one is:
+
+- https://openbeelden.nl/[open beelden]
+
+There might be more?
+
 == This page
 This page is hosted at https://github.com/mmbase/mmbase.github.io[github pages], so currently are just static pages. We're using adoc. The original documentation of MMBase was in Asciidoc XML's, I'll try to get them published here too somehow.
+
+== Issue management
+MMBase-issues used to be hosted in a JIRA installation on the MMBase Server. We lost the database but IIRC it wasn't very functionaly any more, because the installation was very much out dated.
