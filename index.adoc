@@ -2,21 +2,32 @@
 :toc:
 
 == Introduction
-MMBase is a Content Management System that was relatively popular in the zero's mainly in the Netherlands. It was originally developed at https://www.vpro.nl/[VPRO] (https://github.com/vpro[github], https://github.com/npo-poms[this too])
+MMBase is a Content Management System that was relatively popular in the zero's mainly in the Netherlands. It was originally developed (around 1996) at https://www.vpro.nl/[VPRO] (https://github.com/vpro[github], https://github.com/npo-poms[this too])
+
+It was open sourced around 2000. Since 2002 it was supported by the _MMBase foundation_.
+
 
 == Current Status
-The product more or less died in the early 2010's. The original site and servers perished in 2020 or 2021 (?). The domains (mmbase.nl and mmbase.org) were in possession of one of the origjnal sponsors XS4All, and were transferred in september 2021.
+The product more or less died in the early 2010's. The original site and servers perished in 2020 or 2021 (?). The domains (https://www.mmbase.org[mmbase.nl] and https://www.mmbase.org[mmbase.org]) were in possession of one of the origjnal sponsors https://nl.wikipedia.org/wiki/XS4ALL[XS4All], and were transferred in september 2021.
 
 The code base was copied to https://github.com/mmbase[github] a few years before.
 
+== Technical details
+MMBase is coded in java. It used to have its own templating language (https://github.com/mmbase/mmbase/tree/MMBase-1_9/applications/scan[SCAN]), but soon templating was mostly done in JSP, and an extensive 'tag library' was provided.
+
+
 The last release was MMBase 1.9.6. Releases used to be in our own MMBase Maven repositories (http://www.mmbase.org/maven2, http://www.mmbase.org/snapshots), which don't exist either anymore. I've tried to push some artifacts to https://search.maven.org/search?q=mmbase[maven central] and https://oss.sonatype.org/[sonatype]) in the meantime. This work is not completed. The presently default branch  on github is the https://github.com/mmbase/mmbase/tree/MMBase-1_9[MMBase 1.9 branch]. May be it would be usefull the at least create and publish a 1.9.7 version and publish all its artifacts to maven central.
 
-At the time we were actually busy with an MMBase 2.0, which would have involved portal functionality and such. We may try to release some of it after all. We also started to split up the mono-repository of MMBase 1.9 in several distinct github repository like:
+At the time (around ~ 2012 or so) we were actually busy with an MMBase 2.0, which would have involved portal functionality and such. We may try to release some of it after all. We also started to split up the mono-repository of MMBase 1.9 in several distinct github repository like:
 
-- https://github.com/mmbase/mmbase-bom[bom]:
-- https://github.com/mmbase/mmbase-bridge[core]:
-- https://github.com/mmbase/mmbase-taglib[taglib]:
-- https://github.com/mmbase/mmbase-utils[utils]:
+* https://github.com/mmbase/mmbase-bom[bom]: Just a maven pom file with dependencies
+* https://github.com/mmbase/mmbase-bridge[bridge]: Collects interfaces to MMBase. MMBase used to have at least 2 implementations:
+
+** The _core_ implementation, which backs all data by a relational database. The database layer uses XML's to define possible tables, and supported several database implementations like MySQL, PostgreSQL, HSQL, Informix, and IIRC even Oracle.
+** The _RMMCI_ implementation, which is backed by _another_ MMBase via https://en.wikipedia.org/wiki/Java_remote_method_invocation[RMI]. This was used e.g. to create a workflow with 'publishing', where via RMMCI data was synced.
+
+* https://github.com/mmbase/mmbase-taglib[taglib]: Used in templating, talks to the MMBase bridge, but also contained a lot of utility tags.
+* https://github.com/mmbase/mmbase-utils[utils]: Collects several utilities. E.g. MMBase had its own logging framework (originating before similar products like slf4j)
 
 Which hopefully will make 2.0 versions of these a bit more usefull. E.g. I'd myself sometimes wish I could use these nice `mm:` tags again,  or perhaps some classes from `org.mmbase.util` even if I'm not using MMBase itself anymore.
 
