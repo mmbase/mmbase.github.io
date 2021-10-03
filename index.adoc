@@ -2,7 +2,7 @@
 :toc:
 
 == Introduction
-MMBase is a Content Management System that was relatively popular in the zero's mainly in the Netherlands. It was originally developed at https://www.vpro.nl/[VPRO] (https://github.vpro.nl/vpro[github], https://github.vpro.nl/npo-poms[this too])
+MMBase is a Content Management System that was relatively popular in the zero's mainly in the Netherlands. It was originally developed at https://www.vpro.nl/[VPRO] (https://github.com/vpro[github], https://github.com/npo-poms[this too])
 
 == Current Status
 The product more or less died in the early 2010's. The original site and servers perished in 2020 or 2021 (?). The domains (mmbase.nl and mmbase.org) were in possession of one of the origjnal sponsors XS4All, and were transferred in september 2021.
@@ -46,7 +46,7 @@ There might be more?
 This page is hosted at https://github.com/mmbase/mmbase.github.io[github pages], so currently are just static pages. We're using adoc. The original documentation of MMBase was in Asciidoc XML's, I'll try to get them published here too somehow.
 
 == Issue management
-MMBase-issues used to be hosted in a JIRA installation on the MMBase Server. We lost the database but IIRC it wasn't very functionaly any more, because the installation was very much out dated.
+MMBase-issues used to be hosted in a JIRA installation on the MMBase Server. We lost the database but IIRC it wasn't very functional any more, because the installation was very much out dated.
 
 == Plans for the future
 - May be it is interesting to put some stuff in docker images to simply have a running MMBase 1.9, so we can see how it was like.
