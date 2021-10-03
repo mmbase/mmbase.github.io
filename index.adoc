@@ -24,10 +24,10 @@ Which hopefully will make 2.0 versions of these a bit more usefull. E.g. I'd mys
 
 === Originally at svn.mmbase.org
 
-- https://github.com/mmbase/CMSContainer[CMS Container]: Developed by Finalist IT Group
-- https://github.com/mmbase/didactor[Didactor]:
+- https://github.com/mmbase/CMSContainer[CMS Container]: Developed by Finalist IT Group. It used to be used by a variety of web sites, I think mainly of municipalities and such
+- https://github.com/mmbase/didactor[Didactor]: An E-learning environment. Originally mainly developed by Johannes I think, and later by Henk
 - https://github.com/mmbase/te[Template Engine]: Used at VPRO, developed mainly by Kees
-- https://github.com/mmbase/natmm[NatuurMonumenten]: A CMS Developed by Henk
+- https://github.com/mmbase/natmm[NatuurMonumenten]: A CMS ('LeoCMS', referring to, I think, the municipality of Leeuwarden) Originally developed by Henk.
 - https://github.com/mmbase/mmweb[mmweb]: The original MMBase, using MMBase itself
 
 === Forked because dissappeared themselves
