@@ -17,7 +17,9 @@ At the time we were actually busy with an MMBase 2.0, which would have envolved 
 - https://github.com/mmbase/mmbase-bom[bom]:
 - https://github.com/mmbase/mmbase-bridge[core]:
 - https://github.com/mmbase/mmbase-taglib[taglib]:
-- https://github.com/mmbase/mmbase-utils[taglib]:
+- https://github.com/mmbase/mmbase-utils[utils]:
+
+Which hopefully will make 2.0 versions of these a bit more usefull. E.g. I'd myself sometimes wish I could use these nice `mm:` tags again,  or perhaps some classes from `org.mmbase.util` even if I'm not using MMBase itself anymore.
 
 == Other projects hosted at github.io/mmbase
 
@@ -26,13 +28,12 @@ At the time we were actually busy with an MMBase 2.0, which would have envolved 
 - https://github.com/mmbase/CMSContainer[CMS Container]: Developed by Finalist IT Group
 - https://github.com/mmbase/didactor[Didactor]:
 - https://github.com/mmbase/te[Template Engine]: Used at VPRO, developed mainly by Kees
-- https://github.com/mmbase/natmm[NatuurMonumenten]: Developed by Henk
+- https://github.com/mmbase/natmm[NatuurMonumenten]: A CMS Developed by Henk
 - https://github.com/mmbase/mmweb[mmweb]: The original MMBase, using MMBase itself
 
 === Forked because dissappeared themselves
 - https://github.com/mmbase/aselect[A-Select]: A single sign on system, which MMBase had support for
 - https://github.com/mmbase/kupu[kupu]: A rich text editor, which MMBase had support for
-
 
 
 == Sites still running on MMBase
@@ -47,3 +48,12 @@ This page is hosted at https://github.com/mmbase/mmbase.github.io[github pages],
 
 == Issue management
 MMBase-issues used to be hosted in a JIRA installation on the MMBase Server. We lost the database but IIRC it wasn't very functionaly any more, because the installation was very much out dated.
+
+== Plans for the future
+- May be it is interesting to put some stuff in docker images to simply have a running MMBase 1.9, so we can see how it was like.
+
+- As I recall the taglib-documentation was quite nice, but was generated on the fly with JSP's. May we we should do something about that and copy a version to github pages too
+
+- build the stuff from mmbase/documentation and publish somewhere below here
+
+
