@@ -20,9 +20,9 @@ At the time we were actually busy with an MMBase 2.0, which would have involved 
 
 Which hopefully will make 2.0 versions of these a bit more usefull. E.g. I'd myself sometimes wish I could use these nice `mm:` tags again,  or perhaps some classes from `org.mmbase.util` even if I'm not using MMBase itself anymore.
 
-== Other projects hosted at github.io/mmbase
+== Other projects hosted at github.com/mmbase
 
-=== Originally at svn.mmbase.org
+=== Originally at the subversion server at scm.mmbase.org
 
 - https://github.com/mmbase/CMSContainer[CMS Container]: Developed by Finalist IT Group. It used to be used by a variety of web sites, I think mainly of municipalities and such
 - https://github.com/mmbase/didactor[Didactor]: An E-learning environment. Originally mainly developed by Johannes I think, and later by Henk
