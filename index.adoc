@@ -4,3 +4,7 @@
 == Introduction
 MMBase is a Content Management System that was relatively popular in the zero's mainly in the Netherlands. It was originally developped at https://www.vpro.nl/[VPRO]
 
+== Current Status
+The product more or less died in the early 2010's. The original site and servers perished in 2020 or 2021 (?). The domains (mmbase.nl and mmbase.org) were in possession of one of the origjnal sponsors XS4All, and were transferred in september 2021.
+
+The code base was copied to https://github.com/mmbase[github] a few years before.
