@@ -1,0 +1,9 @@
+name: publish
+on:
+  branches: [main]
+
+jobs:
+  publish:
+    steps:
+     - name: asciidoctor-ghpages
+       uses: manoelcampos/asciidoctor-ghpages-action@v2.1.2
