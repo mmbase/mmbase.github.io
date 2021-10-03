@@ -9,10 +9,9 @@ The product more or less died in the early 2010's. The original site and servers
 
 The code base was copied to https://github.com/mmbase[github] a few years before.
 
-The last release was MMBase 1.9.6. Release used to be in our own MMBase Maven repository, which doesn't exist either anymore. I've tried to push some artifacts to https://search.maven.org/search?q=mmbase[maven central] in the mean time. This work is not completed. The default branch on github is the MMBase 1.9 branch. May be it would be usefull the at least create and publish a 1.9.7 version and publish all its artifacts to maven central.
+The last release was MMBase 1.9.6. Releases used to be in our own MMBase Maven repositories (http://www.mmbase.org/maven2, http://www.mmbase.org/snapshots), which don't exist either anymore. I've tried to push some artifacts to https://search.maven.org/search?q=mmbase[maven central] and https://oss.sonatype.org/[sonatype]) in the meantime. This work is not completed. The presently default branch  on github is the https://github.com/mmbase/mmbase/tree/MMBase-1_9[MMBase 1.9 branch]. May be it would be usefull the at least create and publish a 1.9.7 version and publish all its artifacts to maven central.
 
-
-At the time we were actually busy with an MMBase 2.0, which would have envolved portal functionality and such. We may try to release some of it after all. We also started to split up the mono-repository of MMBase 1.9 in several distinct github repository like:
+At the time we were actually busy with an MMBase 2.0, which would have involved portal functionality and such. We may try to release some of it after all. We also started to split up the mono-repository of MMBase 1.9 in several distinct github repository like:
 
 - https://github.com/mmbase/mmbase-bom[bom]:
 - https://github.com/mmbase/mmbase-bridge[core]:
@@ -32,8 +31,8 @@ Which hopefully will make 2.0 versions of these a bit more usefull. E.g. I'd mys
 - https://github.com/mmbase/mmweb[mmweb]: The original MMBase, using MMBase itself
 
 === Forked because dissappeared themselves
-- https://github.com/mmbase/aselect[A-Select]: A single sign on system, which MMBase had support for
-- https://github.com/mmbase/kupu[kupu]: A rich text editor, which MMBase had support for
+- https://github.com/mmbase/aselect[A-Select]: A single sign on system, which MMBase (the https://github.com/mmbase/mmbase/tree/MMBase-1_9/contributions/aselect['aselect sub project']) had support for
+- https://github.com/mmbase/kupu[kupu]: A rich text editor, which MMBase (the https://github.com/mmbase/mmbase/tree/MMBase-1_9/applications/richtext['richtext sub project']) had support for
 
 
 == Sites still running on MMBase
