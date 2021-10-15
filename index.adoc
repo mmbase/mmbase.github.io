@@ -20,7 +20,7 @@ An early history and overview was also published in https://www.researchgate.net
 
 The last release was MMBase 1.9.6. Releases used to be in our own MMBase Maven repositories (http://www.mmbase.org/maven2, http://www.mmbase.org/snapshots), which don't exist either anymore. I've tried to push some artifacts to https://search.maven.org/search?q=mmbase[maven central] and https://oss.sonatype.org/[sonatype]) in the meantime. This work is not completed. The presently default branch  on github is the https://github.com/mmbase/mmbase/tree/MMBase-1_9[MMBase 1.9 branch]. May be it would be usefull the at least create and publish a 1.9.7 version and publish all its artifacts to maven central.
 
-At the time (around ~ 2010 or so) we were actually busy with an MMBase 2.0, which would have involved portal functionality and such. We may try to release some of it after all. We also started to split up the mono-repository of MMBase 1.9 in several distinct github repository like:
+At the time (around ~ 2010 or so) we were actually busy with an MMBase 2.0, which would have involved 'portlet' functionality and such. We may try to release some of it after all. We also started to split up the mono-repository of MMBase 1.9 in several distinct github repository like:
 
 * https://github.com/mmbase/mmbase-bom[bom]: Just a maven pom file with dependencies
 * https://github.com/mmbase/mmbase-bridge[bridge]: Collects interfaces to MMBase. MMBase used to have at least 2 implementations:
