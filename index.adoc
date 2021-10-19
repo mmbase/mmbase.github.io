@@ -1,5 +1,6 @@
 = The MMBase  Content Management System
 :toc:
+:toclevels: 4
 
 == Introduction
 MMBase is a Content Management System that was relatively popular in the zero's mainly in the Netherlands. It was originally developed (around 1996) at https://www.vpro.nl/[VPRO] (https://github.com/vpro[github], https://github.com/npo-poms[this too])
@@ -8,7 +9,7 @@ It was open sourced around 2000. Since 2002 it was supported by the _MMBase foun
 
 
 == Current Status
-The product more or less died in the early 2010's. The original site and servers perished in 2020 or 2021 (?). The domains (https://www.mmbase.org[mmbase.nl] and https://www.mmbase.org[mmbase.org]) were in possession of one of the origjnal sponsors https://nl.wikipedia.org/wiki/XS4ALL[XS4All], and were transferred in september 2021.
+The product more or less died in the early 2010's. The original site and servers perished in 2020 or 2021 (?). The domains (https://www.mmbase.org[mmbase.nl] and https://www.mmbase.org[mmbase.org]) were in possession of one of the origjnal sponsors https://nl.wikipedia.org/wiki/XS4ALL[XS4ALL], and were transferred in september 2021.
 
 The code base was copied to https://github.com/mmbase[github] a few years before.
 
@@ -32,6 +33,55 @@ At the time (around ~ 2010 or so) we were actually busy with an MMBase 2.0, whic
 * https://github.com/mmbase/mmbase-utils[utils]: Collects several utilities. E.g. MMBase had its own logging framework (originating before similar products like slf4j)
 
 Which hopefully will make 2.0 versions of these a bit more usefull. E.g. I'd myself sometimes wish I could use these nice `mm:` tags again, or perhaps some classes from `org.mmbase.util` even if I'm not using MMBase itself anymore.
+
+=== Features
+
+==== Database abstraction and data models
+MMBase has a database abstraction layer, but was always based on relational databases like MySQL or PostgreSQL.
+
+Using XML configuration files one would define the possible tables (referred to as 'builders'), and possible relations between them (which themselves are 'builders' too). These 'builders' could extends from each other, and the 'core' of MMBase would always provide the most basic ones.
+
+==== Generic editors
+
+Using the thus defined model of data, 'generic' edit tools exists. Originally human editors were using these kind of editors.
+
+==== Task based editors
+
+Later appeared 'task based' editors, or 'editwizards'. These were using XML's to define common 'edit tasks'
+
+==== Caching and invalidation
+
+==== Clustering
+It is possible to run several instances on the same database. The instances may broadcast events between them using multicast or unicast. In the last case the cluster communicates its members to each other using entries in the database.
+
+==== RMI and staging/live
+
+==== Images
+
+==== Templating taglib
+
+==== Pluggable security
+
+==== Modularity
+MMBase is several ways highly modular
+
+===== Builders
+Define the possible object types (builders) that can be use in the current MMBase instance
+
+
+===== Applications
+Define a collection of 'needed builders', 'needed relations' and bootstrap data for those.
+
+===== Components
+A component defines as set blocks of templated data.
+
+===== Functions
+
+Functions basically wraps any peace of functionality, and makes it available in templating.
+
+===== Modules
+
+
 
 == Other projects hosted at github.com/mmbase
 
