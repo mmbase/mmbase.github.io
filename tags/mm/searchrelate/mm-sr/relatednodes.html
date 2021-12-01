@@ -1,0 +1,220 @@
+<html xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>relatednodes
+          (Tag Library Documentation Generator - Generated Documentation)
+        </title>
+<meta name="keywords" content="$title">
+<link rel="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+</head>
+<script>
+            function asd()
+            {
+            parent.document.title="relatednodes (Tag Library Documentation Generator - Generated Documentation)";
+            }
+          </script>
+<body bgcolor="white" onload="asd();">
+<a name="navbar_top"></a>
+<table border="0" width="100%" cellpadding="1" cellspacing="0">
+<tr>
+<td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_top_firstrow"></a>
+<table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+<tr ALIGN="center" VALIGN="top">
+<td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="tld-summary.html"><font CLASS="NavBarFont1"><b>Library</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Tag&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+</tr>
+</table>
+</td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+</tr>
+<tr>
+<td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a href="relatednodes.html" target="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+<noscript>
+<a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+</noscript>
+</font></td>
+</tr>
+</table>
+<hr>
+<h2>
+<font size="-1">mm-sr</font>
+<br>
+            Tag relatednodes</h2>
+<hr>
+                   This tag produces 1 ol with nodes of certain type, related to the current node. The nodes can be edited, and added.
+                   If this tag is used outside an mm:form tag, then the user interface can be very minimalistic. Without any commit button or so. Everything is arranged using javascript.
+                   If this tag _is_ used in an mm:form tag, then you a normal submit button must be added to commit the transaction.
+                   In the mean time, though, the changes are changed in the transaction. (So a browser crash could preserve all work).
+                   <br>
+<p></p>
+<b>Example:</b>
+<br>
+<pre>See /mmexamples/searchrelate</pre>
+<p></p>
+<hr>
+<table border="1" cellpadding="3" cellspacing="0" width="100%">
+<tr bgcolor="#CCCCFF" class="TableHeadingColor">
+<td colspan="2"><font size="+2"><b>Tag Information</b></font></td>
+</tr>
+<tr>
+<td>Tag Class</td><td><i>None</i></td>
+</tr>
+<tr>
+<td>TagExtraInfo Class</td><td><i>None</i></td>
+</tr>
+<tr>
+<td>Body Content</td><td>scriptless</td>
+</tr>
+<tr>
+<td>Display Name</td><td>relatednodes</td>
+</tr>
+</table>
+<br>
+<p></p>
+<table border="1" cellpadding="3" cellspacing="0" width="100%">
+<tr bgcolor="#CCCCFF" class="TableHeadingColor">
+<td colspan="5"><font size="+2"><b>Attributes</b></font></td>
+</tr>
+<tr>
+<td><b>Name</b></td><td><b>Required</b></td><td><b>Request-time</b></td><td><b>Type</b></td><td><b>Description</b></td>
+</tr>
+<tr valign="top">
+<td>type</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Type of mmbase related nodes. Like 'type' of mm:relatednodes.</td>
+</tr>
+<tr valign="top">
+<td>path</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Type of mmbase related nodes. Like 'path' of mm:relatednodes.</td>
+</tr>
+<tr valign="top">
+<td>element</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td><i>No Description</i></td>
+</tr>
+<tr valign="top">
+<td>role</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Like 'role' of mm:relatednodes, but defaults to 'posrel'</td>
+</tr>
+<tr valign="top">
+<td>orderby</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Like orderby of mm:relatednodes, but defaults to &amp;lt;role&amp;gt;.pos</td>
+</tr>
+<tr valign="top">
+<td>direction</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Direction of orderby of  mm:relatednodes, but default to &amp;lt;UP&amp;gt;.pos</td>
+</tr>
+<tr valign="top">
+<td>searchdirs</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Like 'searchdirs' of mm:relatednodes</td>
+</tr>
+<tr valign="top">
+<td>fields</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>List of fields to show. Defaults to 'use only fieldlistType'.</td>
+</tr>
+<tr valign="top">
+<td>fieldlistType</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Like 'type' of mm:fieldlist. Defaults to 'list'.</td>
+</tr>
+<tr valign="top">
+<td>icondir</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Directory from which to take create/delete icons, can be empty for default icons (in which case it defaults to the 'icondir' property in searchrelate.xml, which is /mmbase/style/images)</td>
+</tr>
+<tr valign="top">
+<td>item</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Jsp to use to present one li-item, can be empty for a default presentation.
+                                        This jsp will be called with 2 parameteters.
+                                        The value of the parameter 'fieldlistid' can used as an id on the mm:fieldlist you probably use, to make sure the fields inside it have unique ids too.
+                                        Furthermore there is a 'rid' parameter, which uniquely identifies the list in request. It can be used to obtain all other settings from the session.
+                                        Staticly include /mmbase/searchrelate/list/paramters.jspf to get 'parameters' as Map.
+                                        Default implementation is &lt;a href='https://scm.mmbase.org/mmbase/trunk/applications/searchrelate/src/main/webapp/mmbase/searchrelate/list/item.jspx'&gt;/mmbase/searchrelate/list/item.jspx&lt;/a&gt;, and could be used as a template for a customized version.</td>
+</tr>
+<tr valign="top">
+<td>precreate</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Jsp to call just before commit of the created node.</td>
+</tr>
+<tr valign="top">
+<td>createposition</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Position of create link. Either 'up' or 'down'. Default is down.</td>
+</tr>
+<tr valign="top">
+<td>addposition</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Where new items will be added to the list. Either 'up' or 'down'. Default is the value of the 'createposition' attribute</td>
+</tr>
+<tr valign="top">
+<td>constraints</td><td>false</td><td>false</td><td><code>javax.servlet.jsp.tagext.JspFragment</code></td><td>Will be called inside the relatednodescontainer, so you can add extra constraints. (Only works in mmbase ge 1.9)</td>
+</tr>
+<tr valign="top">
+<td>confirm</td><td>false</td><td>false</td><td><code>java.lang.Boolean</code></td><td>Whether deleting must be confirmed</td>
+</tr>
+<tr valign="top">
+<td>load</td><td>false</td><td>false</td><td><code>java.lang.Boolean</code></td><td>Whether javascript must be loaded. Normally this default to the correct value (only on first use), but sometimes,
+                                        e.g. if you use this tag again in the 'item', then you may want to put this explicitely to false</td>
+</tr>
+<tr valign="top">
+<td>sortable</td><td>false</td><td>false</td><td><code>java.lang.Boolean</code></td><td>Using jquery-ui to sort</td>
+</tr>
+<tr valign="top">
+<td>search</td><td>false</td><td>false</td><td><code>java.lang.Boolean</code></td><td>Include also the possibility to search existing nodes</td>
+</tr>
+<tr valign="top">
+<td>searcher</td><td>false</td><td>false</td><td><code>javax.servlet.jsp.tagext.JspFragment</code></td><td>You may provide your own implementation of the search tool</td>
+</tr>
+<tr valign="top">
+<td>implicitSearch</td><td>false</td><td>false</td><td><code>java.lang.Boolean</code></td><td>Wether to fill automaticly even when not yet explicitely searched (defaults to the property 'implicitRepository' of searchrelate.xml, which itself defaults to 'true')</td>
+</tr>
+<tr valign="top">
+<td>searchRepository</td><td>false</td><td>false</td><td><code>org.mmbase.bridge.NodeQuery</code></td><td>An mmbase Query describing in which list the searcher must search. The query should return nodes of type 'type'. (This implies search=true). See also mm-rs:related#repository.</td>
+</tr>
+<tr valign="top">
+<td>delete</td><td>false</td><td>false</td><td><code>java.lang.Boolean</code></td><td>Wether to inform the items to create delete buttons (defaults to inverse value of 'search')</td>
+</tr>
+<tr valign="top">
+<td>create</td><td>false</td><td>false</td><td><code>java.lang.Boolean</code></td><td>Wether to add a create button</td>
+</tr>
+<tr valign="top">
+<td>unlink</td><td>false</td><td>false</td><td><code>java.lang.Boolean</code></td><td>Wether to inform the items to create unlink buttons (defaults to same value as 'search')</td>
+</tr>
+<tr valign="top">
+<td>max</td><td>false</td><td>false</td><td><code>java.lang.Integer</code></td><td>Maximum size of the list</td>
+</tr>
+<tr valign="top">
+<td>min</td><td>false</td><td>false</td><td><code>java.lang.Integer</code></td><td>Minimum size of the list. This mainly has effect on the mmsrValidateHook event.</td>
+</tr>
+<tr valign="top">
+<td>idvar</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>If specified the current 'id' of this list will be made available in the variable. For debugging mainly.</td>
+</tr>
+<tr valign="top">
+<td>config</td><td>false</td><td>false</td><td><code>java.lang.String</code></td><td>Configuration file. Defaults to 'searchrelate'.</td>
+</tr>
+</table>
+<br>
+<p></p>
+<table border="1" cellpadding="3" cellspacing="0" width="100%">
+<tr bgcolor="#CCCCFF" class="TableHeadingColor">
+<td colspan="5"><font size="+2"><b>Variables</b></font></td>
+</tr>
+<td colspan="2"><i>No Variables Defined.</i></td>
+</table>
+<br>
+<p></p>
+<a name="navbar_bottom"></a>
+<table border="0" width="100%" cellpadding="1" cellspacing="0">
+<tr>
+<td COLSPAN="3" BGCOLOR="#EEEEFF" CLASS="NavBarCell1"><a NAME="navbar_bottom_firstrow"></a>
+<table BORDER="0" CELLPADDING="0" CELLSPACING="3">
+<tr ALIGN="center" VALIGN="top">
+<td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="../overview-summary.html"><font CLASS="NavBarFont1"><b>Overview</b></font></a>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a href="tld-summary.html"><font CLASS="NavBarFont1"><b>Library</b></font></a>&nbsp;</td><td BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<font CLASS="NavBarFont1Rev">&nbsp;Tag&nbsp;</font>&nbsp;</td><td BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;<a HREF="../help-doc.html"><font CLASS="NavBarFont1"><b>Help</b></font></a>&nbsp;</td>
+</tr>
+</table>
+</td><td ALIGN="right" VALIGN="top" ROWSPAN="3"><em></em></td>
+</tr>
+<tr>
+<td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2"></font></td><td BGCOLOR="white" CLASS="NavBarCell2"><font SIZE="-2">
+                &nbsp;<a HREF="../index.html" TARGET="_top"><b>FRAMES</b></a>&nbsp;
+                &nbsp;<a href="relatednodes.html" target="_top"><b>NO FRAMES</b></a>&nbsp;
+                <script></script>
+<noscript>
+<a HREF="../alltags-noframe.html" TARGET=""><b>All Tags</b></a>
+</noscript>
+</font></td>
+</tr>
+</table>
+<hr>
+<small><i>
+            Output Generated by 
+            <a href="http://taglibrarydoc.dev.java.net/" target="_blank">Tag Library Documentation Generator</a>.
+            Java, JSP, and JavaServer Pages are trademarks or 
+            registered trademarks of Sun Microsystems, Inc. in the US and other
+            countries.  Copyright 2002-4 Sun Microsystems, Inc.
+            4150 Network Circle
+            Santa Clara, CA 95054, U.S.A.
+            All Rights Reserved. 
+            </i></small>
+</body>
+</html>
