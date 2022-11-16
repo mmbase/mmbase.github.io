@@ -1,6 +1,8 @@
 = The MMBase  Content Management System
 :toc:
 :toclevels: 4
+:favicon:
+
 
 == Introduction
 MMBase is a Content Management System that was relatively popular in the zero's mainly in the Netherlands. It was originally developed (around 1996) at https://www.vpro.nl/[VPRO] (https://github.com/vpro[github], https://github.com/npo-poms[this too])
@@ -51,6 +53,8 @@ Later appeared 'task based' editors, or 'editwizards'. These were using XML's to
 
 ==== Caching and invalidation
 
+Query results are cached, and events are sent to prune cache entries that may be effected. The exact implementation of that is pluggable, and configurable.
+
 ==== Clustering
 It is possible to run several instances on the same database. The instances may broadcast events between them using multicast or unicast. In the last case the cluster communicates its members to each other using entries in the database.
 
@@ -81,7 +85,9 @@ Functions basically wraps any peace of functionality, and makes it available in 
 
 ===== Modules
 
+==== i18n
 
+The internals of MMBase itself are pretty well i18ned. Encodings are taken care of, and texts which may be displayed to users are normally translatable. It does not supply an out-of-the-box solution for actual content, but implementors could implement that easily.
 
 == Other projects hosted at github.com/mmbase
 
@@ -117,5 +123,3 @@ MMBase-issues used to be hosted in a JIRA installation on the MMBase Server. We 
 - As I recall the taglib-documentation was quite nice, but was generated on the fly with JSP's. May we we should do something about that and copy a version to github pages too
 
 - build the stuff from mmbase/documentation and publish somewhere below here
-
-
