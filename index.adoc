@@ -2,6 +2,7 @@
 :toc:
 :toclevels: 4
 :favicon:
+:docinfo: shared
 
 
 == Introduction
