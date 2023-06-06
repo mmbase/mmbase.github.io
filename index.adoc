@@ -12,7 +12,7 @@ It was open sourced around 2000. Since 2002 it was supported by the _MMBase foun
 
 
 == Current Status
-The product more or less died in the early 2010's. The original site and servers perished in 2020 or 2021 (?). The domains (https://www.mmbase.org[mmbase.nl] and https://www.mmbase.org[mmbase.org]) were in possession of one of the origjnal sponsors https://nl.wikipedia.org/wiki/XS4ALL[XS4ALL], and were transferred in september 2021.
+The product more or less died in the early 2010's. The original site and servers perished in 2020 or 2021 (?). The domains (https://www.mmbase.org[mmbase.nl] and https://www.mmbase.org[mmbase.org]) were in possession of one of the original sponsors https://nl.wikipedia.org/wiki/XS4ALL[XS4ALL], and were transferred in september 2021.
 
 The code base was copied to https://github.com/mmbase[github] a few years before.
 
@@ -42,7 +42,7 @@ Which hopefully will make 2.0 versions of these a bit more usefull. E.g. I'd mys
 ==== Database abstraction and data models
 MMBase has a database abstraction layer, but was always based on relational databases like MySQL or PostgreSQL.
 
-Using XML configuration files one would define the possible tables (referred to as 'builders'), and possible relations between them (which themselves are 'builders' too). These 'builders' could extends from each other, and the 'core' of MMBase would always provide the most basic ones.
+Using XML configuration files one would define the possible tables (referred to as 'builders'), and possible relations between them (which themselves are 'builders' too). These 'builders' could extend from each other, and the 'core' of MMBase would always provide the most basic ones.
 
 ==== Generic editors
 
@@ -71,7 +71,7 @@ It is possible to run several instances on the same database. The instances may 
 MMBase is several ways highly modular
 
 ===== Builders
-Define the possible object types (builders) that can be use in the current MMBase instance
+Define the possible object types (builders) that can be used in the current MMBase instance
 
 
 ===== Applications
@@ -116,11 +116,11 @@ There might be more?
 This page is hosted at https://github.com/mmbase/mmbase.github.io[github pages], so currently are just static pages. We're using adoc. The original documentation of MMBase was in Asciidoc XML's, I'll try to get them published here too somehow.
 
 == Issue management
-MMBase-issues used to be hosted in a JIRA installation on the MMBase Server. We lost the database but IIRC it wasn't very functional any more, because the installation was very much out dated.
+MMBase-issues used to be hosted in a JIRA installation on the MMBase Server. We lost the database but IIRC it wasn't very functional anymore, because the installation was very much out dated.
 
 == Plans for the future
 - May be it is interesting to put some stuff in docker images to simply have a running MMBase 1.9, so we can see how it was like.
 
-- As I recall the taglib-documentation was quite nice, but was generated on the fly with JSP's. May we we should do something about that and copy a version to github pages too
+- As I recall the taglib-documentation was quite nice, but was generated on the fly with JSP's. Maybe we should do something about that and copy a version to github pages too
 
 - build the stuff from mmbase/documentation and publish somewhere below here
