@@ -113,7 +113,7 @@ The most noticeable one is:
 There might be more?
 
 == This page
-This page is hosted at https://github.com/mmbase/mmbase.github.io[github pages], so currently are just static pages. We're using adoc. The original documentation of MMBase was in Asciidoc XML's, I'll try to get them published here too somehow.
+This page is hosted at https://github.com/mmbase/mmbase.github.io[github pages], so currently are just static pages. We're using adoc. The original documentation of MMBase was in docbook XML's, I'll try to get them published here too somehow.
 
 == Issue management
 MMBase-issues used to be hosted in a JIRA installation on the MMBase Server. We lost the database but IIRC it wasn't very functional anymore, because the installation was very much out dated.
