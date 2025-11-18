@@ -1,9 +1,0 @@
-= mmbase.github.io
-
-Source code for https://www.mmbase.org, which replaces the original web-site on the server, which was taken down a few years ago.
-
-I opted for using adoc, rather then md. Firstly because I think it simply is better, secondly because we used docbook in MMBase a long time ago already.
-
-Sadly this requires a build then, but all this is arranged via gitlab actions, so it's quite transparent
-image:https://github.com/mmbase/mmbase.github.io/workflows/publish/badge.svg?[Build Status,link=https://github.com/mmbase/mmbase.github.io/actions?query=workflow%3Apublish]
-
