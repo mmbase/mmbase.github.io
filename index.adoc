@@ -16,6 +16,20 @@ The product more or less died in the early 2010's. The original site and servers
 
 The code base was copied to https://github.com/mmbase[github] a few years before.
 
+=== Let's see it!
+
+The example webapp is dockerize, and most things are still working:
+
+[source, bash]
+----
+ docker run -it -p 8080:8080  ghcr.io/mmbase/example-webapp
+----
+
+And the surf to http://localhost:8080/[http://localhost:8080/]
+
+image:example-webapp.png[]]
+
+
 == Technical details
 MMBase is coded in java. It used to have its own templating language (https://github.com/mmbase/mmbase/tree/MMBase-1_9/applications/scan[SCAN]), but soon templating was mostly done in JSP, and an extensive 'tag library' was provided.
 
