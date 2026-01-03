@@ -3,6 +3,8 @@
 :toclevels: 4
 :favicon:
 :docinfo: shared
+:source-highlighter: coderay
+
 
 
 == Introduction
