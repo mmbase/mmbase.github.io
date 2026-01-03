@@ -18,19 +18,29 @@ The code base was copied to https://github.com/mmbase[github] a few years before
 
 === Let's see it!
 
-The example webapp is dockerize, and most things are still working:
+The example webapp is dockerized, and most things are still working:
 
 [source, bash]
 ----
 mkdir -p data work
-docker run -it --user $(id -u):$(id -g) -p 8080:8080 -v $(pwd)/data:/data -v $(pwd)/work:/work ghcr.io/mmbase/example-webapp
+docker run -it -p 8080:8080 ghcr.io/mmbase/example-webapp
 
 ----
 
 
 And the surf to http://localhost:8080/[http://localhost:8080/]
 
-image:example-webapp.png[]]
+image:example-webapp.png[]
+
+This is running memory only. To have it persistent, it can e.g. be done like so:
+
+[source, bash]
+----
+mkdir -p data work
+curl -O https://raw.githubusercontent.com/mmbase/mmbase/refs/heads/MMBase-1_9/example-webapp/docker-compose.yml
+DOCKER_USER=$(id -u):$(id -g) docker-compose up
+----
+This employs a link:https://raw.githubusercontent.com/mmbase/mmbase/refs/heads/MMBase-1_9/example-webapp/docker-compose.yml[docker-compose.yml] file, which uses volumes to persist data and work directories, and a bit of configuration to make HSQLDB write to CSV files.
 
 
 == Technical details
