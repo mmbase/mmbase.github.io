@@ -32,6 +32,8 @@ docker run -it -p 8080:8080 ghcr.io/mmbase/example-webapp
 
 And the surf to http://localhost:8080/[http://localhost:8080/]
 
+Remember that the default username/password you can use is admin/admin2k
+
 image:example-webapp.png[]
 
 This is running memory only. To have it persistent, it can e.g. be done like so:
