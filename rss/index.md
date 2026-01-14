@@ -1,4 +1,4 @@
 --- 
-redirect_to: https://github.com/orgs/mmbase/discussions.atom
+goto: https://github.com/orgs/mmbase/discussions.atom
 ---
 
