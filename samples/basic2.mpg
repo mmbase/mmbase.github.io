@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+  <title>404 The requested resource is unavailable - Open Images</title>
+  <meta name="robots" content="NOINDEX, NOFOLLOW" />
+<link rel="stylesheet" href="/style/css/main.css" type="text/css" />
+<link rel="shortcut icon" href="/style/images/favicon.ico" type="image/x-icon" />
+
+</head>
+<body class="error">
+    <div id="header">
+    <h1><a href="/">
+    <img width="174" height="174" src="/style/images/oip-logo.png" alt="Open Beelden" /></a></h1>
+    <p>Offering online access to a selection of archive material to stimulate creative reuse.</p>
+  </div>
+  <div id="menu">
+    <ul class="main">
+      <li><a href="/about">About</a></li>
+      <li><a href="/media">Media</a></li>
+      <li><a href="/contribute">Contribute</a></li>
+      <li><a href="/users">Users</a></li>
+    </ul>
+  </div>
+
+  <div class="main-column">
+  
+    <h2>404 The requested resource is unavailable</h2>
+    <h3>MMBase-1_9 2016-09-18T15:02 (r46739)</h3>
+    <p>
+      
+      The current URL (The file '/TESTS/basic2.mpg' does not exist) does not
+      point to an existing resource in this web-application.
+      
+    </p>
+    
+  </div>
+    <div id="footer">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/help">Help</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
+
