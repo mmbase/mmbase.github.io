@@ -1,8 +1,0 @@
-= MMBase IRC Channel
-
-We use the communicate via IRC. In the end on the link:slashnet[irc.slashnet.org] server, channel `#mmbase`.
-
-
-== Slack
-
-mmbase.slack.com is our Slack workspace. You can join it via this link: https://join.slack.com/t/mmbase/shared_invite/zt-3nqnjb2ds-ARlQgeyUQpfHLRvlIVl7xQ
